@@ -53,7 +53,7 @@ int main(int argc, char *argv[])
     return 1;
   }
 
-  // 创建并读取向量
+  // 创建并读取向量,读取文件
   vector<int> vec(vectorSize);
   for (int i = 0; i < vectorSize; ++i)
   {
@@ -81,7 +81,7 @@ int main(int argc, char *argv[])
   return 0;
 }
 
-// 执行文件：
+// 在终端输入执行文件：
 // g++ -std=c++11 matrix/matrix_vector_multiplication.cpp -o matrix/matrix_vector_multiplication
 
 // ./matrix/matrix_vector_multiplication ./matrix/matrix.txt ./matrix/vector.txt
